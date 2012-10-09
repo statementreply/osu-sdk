@@ -103,7 +103,8 @@ namespace osu.GameplayElements.HitObjects
         SliderNewCombo = 6,
         Spinner = 8,
         ColourHax = 112,
-        Hold = 128
+        Hold = 128,
+        ManiaLong = 128
     } ;
 
     [Flags]
