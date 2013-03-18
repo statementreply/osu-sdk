@@ -43,11 +43,11 @@ namespace osu.GameModes.Edit.AiMod
     public enum AiModType
     {
         All = 0,
-        Spacing,
-        Snapping,
-        Errors,
-        Difficulty,
-        Style,
+        Compose,
+        Design,
+        Timing,
+        Meta,
+        Mapset,
         Custom
     }
 }

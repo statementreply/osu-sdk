@@ -17,7 +17,7 @@ namespace osu.GameModes.Edit.AiMod.Reports
     public class AiReportDifficultyOneObject : AiReportOneObject
     {
         public AiReportDifficultyOneObject(BeatmapDifficulty difficulty, string condition, HitObjectBase h1)
-            : base(h1, null, Severity.Info, difficulty + " criteria: " + condition,0)
+            : base(h1,h1.StartTime, null, Severity.Info, difficulty + " criteria: " + condition,0)
         {
         }
     }
